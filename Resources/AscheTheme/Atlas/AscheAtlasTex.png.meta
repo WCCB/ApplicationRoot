@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: b7cd515613e68a64b86799540764fa5a
+timeCreated: 1449298774
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Asche_Background
+    21300002: Asche_CloseButton
+    21300004: Asche_Panel
+    21300006: Asche_SelectButton
+    21300008: Asche_CancelButton
+    21300010: Asche_Input
+    21300012: Asche_Field
+    21300014: Asche_Label
+    21300016: Whiteboad
+    21300018: Blackboad
+    21300020: Asche_Whiteboad
+    21300022: Asche_Blackboad
+    21300024: Asche_Mask
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 5
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Asche_Background
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 288
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asche_CloseButton
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Asche_Panel
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+    - name: Asche_SelectButton
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 260
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+    - name: Asche_CancelButton
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+    - name: Asche_Input
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+    - name: Asche_Field
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+    - name: Asche_Label
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 390
+        width: 128
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 38, y: 0, z: 38, w: 0}
+    - name: Asche_Whiteboad
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+    - name: Asche_Blackboad
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

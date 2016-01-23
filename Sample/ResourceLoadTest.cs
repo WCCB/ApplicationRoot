@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using AscheLib;
@@ -49,9 +51,22 @@ public class ResourceLoadTest : MonoBehaviour {
 
 	public void TestTransition() {
 		ResourceLoader.Instance.LoadResourceObservable<GameObject>("MaskFadePanel", false, true)
+			.DoOnDebug(prefab => Debug.LogWarning(prefab))
 			.Subscribe(prefab => {
 				FadePanel fadePanel = UIContentManager.Instance.ContentInstantiate<FadePanel>(prefab);
 				GeneralUtility.CallLateAfterSecond(() => fadePanel.Close(), 2);
 			});
+		/*
+		//数学的には正しくないけど人間が思い浮かべる乱数としては正しい(偏りが発生しない)乱数の取得方法
+		IEnumerator<int> random = EnumerableGenerator.Range(1, 10)	//1~10の値を用意
+			.Shuffle()												//値をシャッフル
+			.Take(5)												//値が5つ流れたら
+			.Retry()												//リトライする
+			.GetEnumerator();										//Enumeratorを取得
+
+		//実際に使っている所
+		for (int i = 0; i < 20; i++) {
+			Debug.Log(random.GetNext());
+		}*/
 	}
 }
